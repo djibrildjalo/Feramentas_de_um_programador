@@ -29,14 +29,17 @@ h1{
     background-color: var(--cor2);
     text-align: center;
     font-family: var(--fonte-destaque);
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid rgb(177, 177, 177);
+    padding: 4px;
 }
 
 h2{
     font-family: var(--fonte-títulos);
     background-color: rgb(193, 195, 197);
     color: var(--cor3);
+    padding: 4px;
+    border-radius: 8px;
 }
 h3{
     font-family: var(--fonte-títulos);
@@ -106,4 +109,5 @@ footer p{
     background-color: var(--cor2);
     text-align: center;
     font-family: var(--fonte-destaque);
+    padding: 8px;
 }
