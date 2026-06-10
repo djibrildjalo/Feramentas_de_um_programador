@@ -123,3 +123,8 @@ footer a:hover{
     color: #1409e5;
     text-decoration: underline;
 }
+
+article > div.aplicativos{
+    height: 100px;
+    background: linear-gradient(#7b14d6, #232f90);
+}
