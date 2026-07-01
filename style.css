@@ -21,8 +21,18 @@ body{
     font-family: var(--fonte-padrão);
     background-color: var(--cor0);
     font-size: 16px;
-    margin: 50px;
+    margin: 30px;
     margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+    font-family: var(--fonte-padrão);
+    background-color: var(--cor0);
+    font-size: 16px;
+    margin: 10px;
+    margin-top: -10px;
+}
 }
 
 h1{
@@ -30,7 +40,6 @@ h1{
     text-align: center;
     font-family: var(--fonte-destaque);
     border-radius: 8px;
-    /* border: 1px solid rgb(177, 177, 177); */
     padding: 4px;
     box-shadow: 0px 0px 2px rgb(113, 113, 113);
 }
@@ -41,7 +50,6 @@ h2{
     color: var(--cor3);
     padding: 4px;
     border-radius: 8px;
-    /* box-shadow: 0px 0px 0px 2px rgb(172, 172, 172); */
 }
 h3{
     font-family: var(--fonte-títulos);
@@ -49,14 +57,6 @@ h3{
 
 p{
     text-align: justify;
-}
-
-main{
-
-}
-
-section{
-
 }
 
 .org{
@@ -68,11 +68,9 @@ section{
 .org article{
     background-color: var(--cor2);
     flex: 1;
-    min-width: 180px;
+    min-width: 191px;
     border-radius: 12px;
     overflow: hidden;
-    /* flex-direction: column;
-    display: flex; */
 }
 
 .cores{
